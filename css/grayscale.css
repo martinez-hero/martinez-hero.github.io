@@ -138,7 +138,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/dock-bg-compressor.jpg) no-repeat bottom center scroll;
+    background: url(../img/bg-boat-grey-darker.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -253,7 +253,7 @@ a:focus {
     padding-top: 100px;
 }
 
-.heroes-section {
+.future-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -276,7 +276,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .heroes-section {
+    .future-section {
         padding: 100px 0;
     }
 

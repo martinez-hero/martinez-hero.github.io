@@ -71,6 +71,7 @@ a:focus {
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
+    display: none;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -110,6 +111,10 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
+.top-nav-collapse .navbar-brand {
+    display: block;
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -137,9 +142,9 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
-    background: url(../img/bg-boat-grey-darker.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    color: #222;
+    background: url(../img/splash.jpg) no-repeat bottom center scroll;
+    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -154,26 +159,26 @@ a:focus {
 .intro .intro-body .brand-heading {
     font-size: 40px;
     font-weight: 400;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6),
-                 0 0 100px rgba(0, 0, 0, 0.8);
+    margin: 0;
+    padding-bottom: 15px;
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
+    font-size: 32px;
 }
 
 @media(min-width:767px) {
     .intro {
         height: 100%;
-        /**padding: 0;**/
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 90px;
+        font-size: 40px;
     }
 
     .intro .intro-body .intro-text {
-        font-size: 25px;
+        font-size: 90px;
+        font-weight: bold;
     }
 }
 
@@ -182,10 +187,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #222;
     border-radius: 35px;
     font-size: 40px;
-    color: #fff;
+    color: #222;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -195,7 +200,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: #222;
     background: rgba(255,255,255,.1);
 }
 

@@ -25,7 +25,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: "Oswald","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -36,7 +36,7 @@ p {
     line-height: 1.5;
 }
 
-@media(min-width:767px) {
+@media(min-width:768px) {
     p {
         margin: 0 0 35px;
         font-size: 20px;
@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #219ab3;
+    color: #42dca3;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,24 +54,23 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #11505d;
+    color: #1d9b6c;
 }
 
 .light {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: "Oswald","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
 }
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
-    display: none;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -93,30 +92,38 @@ a:focus {
     color: #fff;
 }
 
-.navbar-custom .nav li.active {
-    outline: nonte;
-    background-color: rgba(255,255,255,.3);
-}
-
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
 }
 
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a.active {
+.navbar-custom .nav li a:hover {
     outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
     background-color: rgba(255,255,255,.3);
 }
 
-.top-nav-collapse .navbar-brand {
-    display: block;
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
 }
 
-@media(min-width:767px) {
-    .navbar {
+@media(min-width:768px) {
+    .navbar-custom {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
@@ -126,13 +133,10 @@ a:focus {
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
 
-    .top-nav-collapse {
-        padding: 0;
-        background-color: #000;
-    }
-
     .navbar-custom.top-nav-collapse {
+        padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #000;
     }
 }
 
@@ -142,9 +146,9 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #222;
-    background: url(../img/splash.jpg) no-repeat bottom center scroll;
-    background-color: #fff;
+    color: #fff;
+    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -158,27 +162,24 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
-    font-weight: 400;
-    margin: 0;
-    padding-bottom: 15px;
 }
 
 .intro .intro-body .intro-text {
-    font-size: 32px;
+    font-size: 18px;
 }
 
-@media(min-width:767px) {
+@media(min-width:768px) {
     .intro {
         height: 100%;
+        padding: 0;
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 40px;
+        font-size: 100px;
     }
 
     .intro .intro-body .intro-text {
-        font-size: 90px;
-        font-weight: bold;
+        font-size: 26px;
     }
 }
 
@@ -187,10 +188,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #222;
-    border-radius: 35px;
+    border: 2px solid #fff;
+    border-radius: 100%!important;
     font-size: 40px;
-    color: #222;
+    color: #fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -200,7 +201,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #222;
+    color: #fff;
     background: rgba(255,255,255,.1);
 }
 
@@ -260,11 +261,11 @@ a:focus {
     padding-top: 100px;
 }
 
-.future-section {
+.download-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/dimaggio-1.jpg) no-repeat center center scroll;
+    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -283,7 +284,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .future-section {
+    .download-section {
         padding: 100px 0;
     }
 
@@ -294,8 +295,9 @@ a:focus {
 }
 
 .btn {
+    border-radius: 0;
     text-transform: uppercase;
-    font-family: "Oswald","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -303,19 +305,17 @@ a:focus {
 }
 
 .btn-default {
-    /**border: 1px solid #219ab3;
-    color: #219ab3;
-    background-color: transparent;**/
-    color: #000;
-    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid #42dca3;
+    color: #42dca3;
+    background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #219ab3;
+    border: 1px solid #42dca3;
     outline: 0;
     color: #000;
-    background-color: #219ab3;
+    background-color: #42dca3;
 }
 
 ul.banner-social-buttons {

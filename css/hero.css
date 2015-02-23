@@ -1,0 +1,120 @@
+body {
+  color: #222;
+  background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-custom {
+  font-family: Oswald,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.downcase {
+  text-transform: none;
+}
+
+/** main **/
+
+@media(min-width:767px) {
+    .content-section {
+        padding-top: 150px;
+    }
+}
+
+/** navbar **/
+
+.navbar-custom {
+    background-color: #222;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    color: #fff;
+    outline: 0;
+    background-color: rgba(255,255,255,.3);
+}
+
+@media(min-width:768px) {
+    .navbar-custom {
+        background: 0 0;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        background: #222;
+        background-color: rgba(0,0,0,.8);
+    }
+}
+
+/** intro **/
+
+.intro {
+  background: url(../img/splash.jpg) no-repeat bottom center scroll;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: #222;
+}
+
+.intro .intro-body .brand-heading {
+  font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: none
+}
+
+.intro .intro-body. .intro-text {
+  background-color: #fff;
+}
+
+@media(min-width:767px) {
+    .intro .intro-body .brand-heading {
+        font-size: 90px;
+        font-weight: bold;
+    }
+
+    .intro .intro-body .intro-text {
+      font-weight: bold;
+    }
+}
+
+/** customs **/
+
+#map {
+  margin-top: 0;
+  height: 300px;
+}
+
+@media(min-width:767px) {
+    #map {
+        height: 500px;
+    }
+}
+
+#share {
+  background: url(../img/dock-bg-compressor.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#mural {
+  background: url(../img/mural.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.btn-xl {
+  font-size: 24px;
+}

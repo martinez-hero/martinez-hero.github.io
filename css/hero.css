@@ -72,6 +72,16 @@ h6,
   color: #222;
 }
 
+.intro-statue {
+  background: url(../img/radio.jpg) no-repeat bottom center scroll;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: #222;
+}
+
 .intro-museum {
   background: url(../img/boat.jpg) no-repeat bottom center scroll;
   background-color: #222;

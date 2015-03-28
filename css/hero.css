@@ -32,7 +32,7 @@ h6,
 /** navbar **/
 
 .navbar-custom {
-    background-color: #222;
+  background: #222;
 }
 
 .navbar-custom .nav li a:hover,
@@ -45,12 +45,18 @@ h6,
 
 @media(min-width:768px) {
     .navbar-custom {
-        background: 0 0;
+        background: #222;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.6)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); /* W3C */
     }
 
     .navbar-custom.top-nav-collapse {
         background: #222;
         background-color: rgba(0,0,0,.8);
+        border: 0;
     }
 }
 
@@ -125,11 +131,30 @@ h6,
   background-size: cover;
   -o-background-size: cover;
 }
+#walking-tour {
+  background: url(../img/bridge.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.readable {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  box-sizing: border-box;
+  padding: 3rem;
+  margin-bottom: 100px;
+}
 
 #carousel {
-  background: #000;
 }
 
 .btn-xl {
   font-size: 24px;
+}
+
+.content-section-small {
+  padding-top: 50px;
 }

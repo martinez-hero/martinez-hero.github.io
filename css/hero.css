@@ -126,6 +126,14 @@ h6,
     }
 }
 
+#donate {
+  background: url(../img/fireworks.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 #share {
   background: url(../img/dock.jpg) no-repeat bottom center scroll;
   -webkit-background-size: cover;

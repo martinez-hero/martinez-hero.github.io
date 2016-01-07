@@ -24,7 +24,7 @@ function init() {
     // Create the Google Map using out element and options defined above
     var map = new google.maps.Map(mapElement, mapOptions);
 
-    var image = '../img/map-marker.png';
+    var image = '/images/map-marker.png';
     var myLatLng = new google.maps.LatLng(38.029036, -122.117622);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,

@@ -63,7 +63,7 @@ h6,
 /** intro **/
 
 .intro {
-  background: url(/images/background.jpg) no-repeat bottom center scroll;
+  background: url(/images/splash.jpg) no-repeat bottom center scroll;
   background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -118,14 +118,14 @@ h6,
 }
 
 @media(min-width:767px) {
-    .intro .intro-body .brand-heading {
-        font-size: 90px;
-        font-weight: bold;
-    }
+  .intro .intro-body .brand-heading {
+    font-size: 90px;
+    font-weight: bold;
+  }
 
-    .intro .intro-body .intro-text {
-      font-weight: bold;
-    }
+  .intro .intro-body .intro-text {
+    font-weight: bold;
+  }
 }
 
 /** customs **/
@@ -202,4 +202,9 @@ hr.short {
 
 #statue {
   background: #f0edea;
+}
+
+.brick {
+  color: rgba(89, 30, 22, 1);
+  margin-top: 35px;
 }

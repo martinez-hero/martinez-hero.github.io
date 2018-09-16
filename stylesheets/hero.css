@@ -163,6 +163,14 @@ hr.short {
   -o-background-size: cover;
 }
 
+#shop {
+  background: url(/images/waves.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 #initiatives {
   background: url(/initiatives/background.jpg) no-repeat bottom center scroll;
   -webkit-background-size: cover;

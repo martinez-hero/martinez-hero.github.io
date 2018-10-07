@@ -6,57 +6,45 @@ permalink: /about/
 ---
 
 <div id="main" class="wrapper style2">
-  <div class="title">The Board</div>
+  <div class="title">Board Members</div>
   <div class="container">
     <div class="row aln-center">
-      <div class="col-4 col-12-medium col-4-offset">
-        <section class="highlight">
-          <a href="#" class="image featured"><img src="/images/pic01.jpg" alt="" /></a>
-          <h3><a href="#">Rick Aldridge</a></h3>
-          <p>President</p>
-        </section>
-      </div>
+      {% for president in site.president %}
+        <div class="col-4 col-12-medium col-4-offset">
+          <section class="highlight person">
+            <a href="#{{ president.id | replace: '/', '_' }}" data-featherlight="#{{ president.id | replace: '/', '_' }}" class="image featured">
+              <img src="/images/portraits/{{ president.image }}" alt="portrait" />
+            </a>
+            <h3><a href="#{{ president.id | replace: '/', '_' }}" data-featherlight="#{{ president.id | replace: '/', '_' }}">{{ president.name }}</a></h3>
+            <p>{{ president.title }}</p>
+            <div class="content" id="{{ president.id | replace: '/', '_' }}">
+              <h2>{{ president.name }}</h2>
+              <hr>
+              {{ president.content | markdownify }}
+            </div>
+          </section>
+        </div>
+      {% endfor %}
     </div>
     <div class="row aln-center">
-      <div class="col-4 col-12-medium">
-        <section class="highlight">
-          <a href="#" class="image featured"><img src="/images/pic02.jpg" alt="" /></a>
-          <h3><a href="#">Paula DiMaggio Hamra</a></h3>
-        </section>
-      </div>
-      <div class="col-4 col-12-medium">
-        <section class="highlight">
-          <a href="#" class="image featured"><img src="/images/pic03.jpg" alt="" /></a>
-          <h3><a href="#">Ken Dothée</a></h3>
-        </section>
-      </div>
-      <div class="col-4 col-12-medium">
-        <section class="highlight">
-          <a href="#" class="image featured"><img src="/images/pic04.jpg" alt="" /></a>
-          <h3><a href="#">Paul Craig</a></h3>
-        </section>
-      </div>
-    </div>
-    <hr>
-    <div class="row aln-center">
-      <div class="col-4 col-12-medium">
-        <section class="highlight">
-          <a href="#" class="image featured"><img src="/images/pic02.jpg" alt="" /></a>
-          <h3><a href="#">Donna Allen</a></h3>
-        </section>
-      </div>
-      <div class="col-4 col-12-medium">
-        <section class="highlight">
-          <a href="#" class="image featured"><img src="/images/pic03.jpg" alt="" /></a>
-          <h3><a href="#">Bob Agnew</a></h3>
-        </section>
-      </div>
-      <div class="col-4 col-12-medium">
-        <section class="highlight">
-          <a href="#" class="image featured"><img src="/images/pic04.jpg" alt="" /></a>
-          <h3><a href="#">Anne Mobley</a></h3>
-        </section>
-      </div>
+      {% for member in site.board_members %}
+        <div class="col-4 col-12-medium">
+          <section class="highlight person">
+            <a href="#{{ member.id | replace: '/', '_' }}" data-featherlight="#{{ member.id | replace: '/', '_' }}" class="image featured">
+              <img src="/images/portraits/{{ member.image }}" alt="portrait" />
+            </a>
+            <h3>
+              <a href="#{{ member.id | replace: '/', '_' }}" data-featherlight="#{{ member.id | replace: '/', '_' }}">{{ member.name }}</a>
+            </h3>
+            <p>{{ member.title }}</p>
+            <div class="content" id="{{ member.id | replace: '/', '_' }}">
+              <h2>{{ member.name }}</h2>
+              <hr>
+              {{ member.content | markdownify }}
+            </div>
+          </section>
+        </div>
+      {% endfor %}
     </div>
   </div>
 </div>
@@ -65,12 +53,23 @@ permalink: /about/
   <div class="title">Honorary Board Members</div>
   <div class="container">
     <div class="row aln-center">
-      <div class="col-4 col-12-medium">
-        <section class="highlight">
-          <a href="#" class="image featured"><img src="/images/pic05.jpg" alt="" /></a>
-          <h3><a href="#">Lara DeLaney</a></h3>
-        </section>
-      </div>
+     {% for member in site.honorary_members %}
+        <div class="col-4 col-12-medium">
+          <section class="highlight person">
+            <a href="#{{ member.id | replace: '/', '_' }}" data-featherlight="#{{ member.id | replace: '/', '_' }}" class="image borderless featured">
+              <img src="/images/portraits/{{ member.image }}" alt="portrait" />
+            </a>
+            <h3>
+              <a href="#{{ member.id | replace: '/', '_' }}" data-featherlight="#{{ member.id | replace: '/', '_' }}">{{ member.name }}</a>
+            </h3>
+            <div class="content" id="{{ member.id | replace: '/', '_' }}">
+              <h2>{{ member.name }}</h2>
+              <hr>
+              {{ member.content | markdownify }}
+            </div>
+          </section>
+        </div>
+      {% endfor %}
     </div>
   </div>
 </section>

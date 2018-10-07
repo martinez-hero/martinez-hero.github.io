@@ -47,4 +47,57 @@ button.style1:hover,
 
 #header {
   background: url("/images/background.jpg") center center;
+  background-size: cover;
+}
+
+section.highlight.person {
+  text-align: center;
+}
+
+section.highlight.person img {
+  margin: 0 auto;
+  width: initial;
+}
+
+section.highlight.person .content {
+  display: none;
+}
+
+.featherlight .featherlight-close-icon {
+  min-width: 4em;
+}
+
+.wrapper.style3 .image.borderless {
+  border: none;
+}
+
+@media screen and (min-width: 981px) {
+  .feature-list > .row > :nth-child(-n + 3) > section {
+    border-top: 0;
+    padding-top: 0;
+  }
+}
+
+#footer footer.style1 {
+  border-top: solid 1px rgba(255, 255, 255, 0.05);
+  text-align: center;
+  padding: 3em 0 3em 0;
+  margin-top: 3em;
+}
+
+#footer footer.style1 h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5em;
+  letter-spacing: 0.075em;
+  line-height: 1.5em;
+}
+
+#footer footer.style1 p {
+  color: #b1b4b9;
+  display: block;
+  margin: 1.15em 0 0 0;
+  font-size: 1.3em;
+  letter-spacing: 0.075em;
+  line-height: 1.5em;
 }

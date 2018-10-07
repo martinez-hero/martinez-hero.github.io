@@ -3,16 +3,22 @@
 
 {% include head.html %}
 
-<body>
-  {% include navigation.html %}
+<body class="is-preload">
+  <div id="page-wrapper">
+    {% include header.html %}
 
-  {{ content }}
+    {{ content }}
 
-  {% include footer.html %}
+    {% include footer.html %}
+  </div>
 
-  <script src="/js/jquery-1.11.1.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/jquery.min.js"></script>
   <script src="/js/jquery.easing.min.js"></script>
-  <script src="/js/grayscale.js"></script>
+  <script src="/js/jquery.dropotron.min.js"></script>
+  <script src="/js/browser.min.js"></script>
+  <script src="/js/breakpoints.min.js"></script>
+  <script src="/js/util.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/alt.js"></script>
 </body>
 </html>

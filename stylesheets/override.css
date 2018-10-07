@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+
+#logo h1 {
+  font-family: 'Lobster Two', serif;
+  text-transform: none;
+  font-size: 3em;
+  font-style: italic;
+}
+
+#logo p {
+  font-size: 1.5em;
+}
+
+#footer,
+#footer .title {
+  background: #2d2323 url("images/overlay.png");
+}
+
+.feature-list h3 {
+  color: #b6a384 !important;
+}
+
+input[type="button"].style1,
+input[type="submit"].style1,
+input[type="reset"].style1,
+button.style1,
+.button.style1 {
+  background: #b6a384 url("images/overlay.png");
+}
+
+input[type="button"].style1:hover,
+input[type="submit"].style1:hover,
+input[type="reset"].style1:hover,
+button.style1:hover,
+.button.style1:hover {
+  background: #584e47 url("images/overlay.png");
+}
+
+.row + .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#intro p.style2 {
+  color: #282b34;
+}
+
+#header {
+  background: url("/images/background.jpg") center center;
+}

@@ -1,7 +1,7 @@
 # Setup
 title:               martinezhero.org
-tagline:             things
-url:                 http://martinezhero.org
+tagline:             Joe DiMaggio Hometown Hero Project
+url:                 https://martinezhero.org
 baseurl:             ""
 
 # Assets
@@ -13,10 +13,14 @@ sass:
 # About/contact
 author:
   name:              Josef Kelly
-  url:               https://twitter.com/josefkelly
-  email:             kelly.josef@gmail.com
+  email:             josefkelly@pm.me
 
 # Custom vars
 version:             2.0.0
 github:
   repo:              https://github.com/martinez-hero/martinez-hero.github.io
+
+collections:
+  - board_members
+  - honorary_members
+  - president

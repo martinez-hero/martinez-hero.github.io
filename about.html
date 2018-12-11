@@ -1,0 +1,75 @@
+---
+layout: default
+title: About Us
+subtitle: The People that make it Work
+permalink: /about/
+---
+
+<div id="main" class="wrapper style2">
+  <div class="title">Board Members</div>
+  <div class="container">
+    <div class="row aln-center">
+      {% for president in site.president %}
+        <div class="col-4 col-12-medium col-4-offset">
+          <section class="highlight person">
+            <a href="#{{ president.id | replace: '/', '_' }}" data-featherlight="#{{ president.id | replace: '/', '_' }}" class="image featured">
+              <img src="/images/portraits/{{ president.image }}" alt="portrait" />
+            </a>
+            <h3><a href="#{{ president.id | replace: '/', '_' }}" data-featherlight="#{{ president.id | replace: '/', '_' }}">{{ president.name }}</a></h3>
+            <p>{{ president.title }}</p>
+            <div class="content" id="{{ president.id | replace: '/', '_' }}">
+              <h2>{{ president.name }}</h2>
+              <hr>
+              {{ president.content | markdownify }}
+            </div>
+          </section>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="row aln-center">
+      {% for member in site.board_members %}
+        <div class="col-4 col-12-medium">
+          <section class="highlight person">
+            <a href="#{{ member.id | replace: '/', '_' }}" data-featherlight="#{{ member.id | replace: '/', '_' }}" class="image featured">
+              <img src="/images/portraits/{{ member.image }}" alt="portrait" />
+            </a>
+            <h3>
+              <a href="#{{ member.id | replace: '/', '_' }}" data-featherlight="#{{ member.id | replace: '/', '_' }}">{{ member.name }}</a>
+            </h3>
+            <p>{{ member.title }}</p>
+            <div class="content" id="{{ member.id | replace: '/', '_' }}">
+              <h2>{{ member.name }}</h2>
+              <hr>
+              {{ member.content | markdownify }}
+            </div>
+          </section>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<section id="highlights" class="wrapper style3">
+  <div class="title">Honorary Board Members</div>
+  <div class="container">
+    <div class="row aln-center">
+     {% for member in site.honorary_members %}
+        <div class="col-4 col-12-medium">
+          <section class="highlight person">
+            <a href="#{{ member.id | replace: '/', '_' }}" data-featherlight="#{{ member.id | replace: '/', '_' }}" class="image borderless featured">
+              <img src="/images/portraits/{{ member.image }}" alt="portrait" />
+            </a>
+            <h3>
+              <a href="#{{ member.id | replace: '/', '_' }}" data-featherlight="#{{ member.id | replace: '/', '_' }}">{{ member.name }}</a>
+            </h3>
+            <div class="content" id="{{ member.id | replace: '/', '_' }}">
+              <h2>{{ member.name }}</h2>
+              <hr>
+              {{ member.content | markdownify }}
+            </div>
+          </section>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

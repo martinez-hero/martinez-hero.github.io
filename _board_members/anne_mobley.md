@@ -1,6 +1,6 @@
 ---
 name: Anne Mobley
-title: Vice President
+title: Secretary
 image: 3f.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: Paula DiMaggio Hamra
-title: Board Member
+title: Honorary Board Member
 image: 6f.jpg
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: Paula DiMaggio Hamra
+title: Board Member
 image: 5f.jpg
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: Bob Agnew
+title: Board Member
 image: 4m.jpg
 ---
 

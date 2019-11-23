@@ -1,5 +1,6 @@
 ---
 name: Franci Lucero
+title: Board Member
 image: 4f.jpg
 ---
 

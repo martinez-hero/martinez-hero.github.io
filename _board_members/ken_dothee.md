@@ -1,5 +1,6 @@
 ---
 name: Ken Dothée
+title: Board Member
 image: 7m.jpg
 ---
 

@@ -4,4 +4,4 @@ title: President
 image: 2m.jpg
 ---
 
-Rick's bio goes here.
+Carpenter, Martinez resident for 35 years. Father of two Bulldogs, Volunteer.

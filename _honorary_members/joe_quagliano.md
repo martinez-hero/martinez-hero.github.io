@@ -1,5 +1,6 @@
 ---
 name: Joe Quagliano
+title: Honorary Board Member
 image: 6m.jpg
 ---
 

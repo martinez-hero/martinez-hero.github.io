@@ -1,5 +1,6 @@
 ---
-name: Lara Delaney
+name: Lara DeLaney
+title: Honorary Board Member
 image: 5f.jpg
 ---
 

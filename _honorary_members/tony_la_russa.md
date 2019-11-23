@@ -1,5 +1,6 @@
 ---
 name: Tony La Russa
+title: Honorary Board Member
 image: 2m.jpg
 ---
 

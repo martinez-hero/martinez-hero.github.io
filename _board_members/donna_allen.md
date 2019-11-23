@@ -1,5 +1,6 @@
 ---
 name: Donna Allen
+title: Board Member
 image: 6f.jpg
 ---
 

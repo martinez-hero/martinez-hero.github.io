@@ -10,7 +10,7 @@ permalink: /about/
   <div class="container">
     <div class="row aln-center">
       {% for president in site.president %}
-        <div class="col-4 col-12-medium col-4-offset">
+        <div class="col-4 col-12-medium">
           <section class="highlight person">
             <a href="#{{ president.id | replace: '/', '_' }}" data-featherlight="#{{ president.id | replace: '/', '_' }}" class="image featured">
               <img src="/images/portraits/{{ president.image }}" alt="portrait" />

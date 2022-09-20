@@ -4,8 +4,12 @@ title: Honorary Board Member
 image: 5f.jpg
 ---
 
-Lara DeLaney was born in southern California and raised in Jeddah, Saudi Arabia. Lara finished high school in Ashland, Oregon and after attended college at U.C. Santa Cruz, studying Literature and finishing with Honors in the Major. Lara then obtained a Master's degree in Public Policy from the University of Chicago.
+Lara DeLaney was born in southern California, the middle of three girls, and raised in Jeddah, Saudi Arabia.
 
-Lara began her career in government with the San Joaquin Council of Governments as a Senior Regional Planner, working on regional transportation and land use policy. In 1998, Lara was hired by Contra Costa County, as a Senior Management Analyst, providing budgetary oversight for the General Government division. She presently serves as a Senior Deputy County Administrator.
+Lara finished high school in Ashland, Oregon and after attended college at U.C. Santa Cruz, studying Literature and finishing with Honors in the Major and Honors in the College. She then obtained a Master's degree in Public Policy from the University of Chicago in 1993.
 
-While tennis has remained a central activity in her life, having achieved a credential as a tennis professional and umpiring at the U.S. Open in 1997, Lara has also engaged in a variety of civic activities including involvement with the Kiwanis Club, the Chamber of Commerce, and Main Street Martinez.
+After her return to California, Lara began her career in government with the San Joaquin Council of Governments as a Senior Regional Planner, working on transportation and land use policy and projects. In 1998, Lara was hired by Contra Costa County, where she presently serves as a Senior Deputy County Administrator, providing budgetary oversight of County departments and serving as the County’s Legislative Coordinator.
+
+While tennis has remained a central activity in her life, having achieved a credential as a tennis professional and umpiring at the U.S. Open in 1997, Lara has also engaged in a variety of civic activities including membership in the Kiwanis Club and the Martinez Rotary. Lara was also instrumental in the establishment of the Joe DiMaggio Hometown Hero Project.
+
+Lara was first elected to the Martinez City Council in 2002, where she presently serves as Vice Mayor, and is happily married to Eric Halverson, a general contractor and football coach.

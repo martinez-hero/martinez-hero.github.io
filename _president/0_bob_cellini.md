@@ -1,6 +1,6 @@
 ---
 name: Bob Cellini
-title: Vice President
+title: President
 image: 3m.jpg
 ---
 

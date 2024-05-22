@@ -1,6 +1,6 @@
 ---
 name: Rick Aldridge
-title: President
+title: Vice President
 image: 2m.jpg
 ---
 

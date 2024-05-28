@@ -1,7 +1,7 @@
 ---
 name: Lara DeLaney
 title: Honorary Board Member
-image: 5f.jpg
+image: lara-delaney-og.jpg
 ---
 
 Lara DeLaney was born in southern California, the middle of three girls, and raised in Jeddah, Saudi Arabia.

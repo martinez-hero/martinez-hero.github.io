@@ -1,7 +1,7 @@
 ---
 name: Anne Mobley
 title: Secretary
-image: 3f.jpg
+image: anne-mobley-og.jpg
 ---
 
 Anne Mobley was born Renanne Vicini to first generation Italian and Croatian parents, Reno and Anni, in SF, attended eight years of Catholic grade school, and after high school graduation went to work for a chemical company for a year before beginning a long career in municipal government working for cities of Union City, South Lake Tahoe, Orinda, and Pleasant Hill, and retiring from Contra Costa Water District.

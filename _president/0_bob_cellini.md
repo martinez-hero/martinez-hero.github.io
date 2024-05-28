@@ -1,7 +1,7 @@
 ---
 name: Bob Cellini
 title: President
-image: 3m.jpg
+image: bob-cellini-og.jpg
 ---
 
 Bob Cellini is a Martinez native, born and raised. Lloyd, Bob’s father who immigrated from Italy to the United States when he was 4 years old, introduced him to baseball at a young age. During the summer of 1964 at the season ending team picnic, the young men were greeted by Joe DiMaggio and received a autographed baseball by the Yankee Clipper.

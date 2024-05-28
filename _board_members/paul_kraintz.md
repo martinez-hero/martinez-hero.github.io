@@ -1,7 +1,7 @@
 ---
 name: Paul Kraintz
 title: Treasurer
-image: 4m.jpg
+image: paul-kraintz-og.jpg
 ---
 
 Anthony “Paul” Kraintz was born and raised in Martinez California.  His Maternal family lineage dates to 1769 with the Portola Expedition from Mexico. Paul and his wife, Mary, raised two children who attended Martinez schools.  Paul graduated from Alhambra High School, Class of 1971. He received his Associate Arts Degree from Diablo Valley College and his Bachelor Science Degree – Business Admin. Accounting from Cal State Chico.
